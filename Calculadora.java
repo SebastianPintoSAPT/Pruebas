@@ -25,4 +25,12 @@ public class Calculadora {
     public double potencia(double base, double exponente) {
         return Math.pow(base, exponente);
     }
+
+    public int raizCuadrada(int a) {
+        if (a < 0) {
+            System.out.println("No se puede calcular la raíz cuadrada de un número negativo");
+            return -1; // Indicador de error
+        }
+        return (int) Math.sqrt(a);
+    }
 }
