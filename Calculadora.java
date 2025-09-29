@@ -33,7 +33,14 @@ public class Calculadora {
         }
         return (int) Math.sqrt(a);
     }
+ raiz
+    public int usted(int a){
+        return a/10;
+    }
 
+    public int yo (int a){
+        return a/2
+          
     public int logaritmo(int a) {
         if (a <= 0) {
             System.out.println("No se puede calcular el logaritmo de un número menor o igual a cero");
