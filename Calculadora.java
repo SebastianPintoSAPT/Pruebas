@@ -37,4 +37,8 @@ public class Calculadora {
     public int usted(int a){
         return a/10;
     }
+
+    public int yo (int a){
+        return a/2
+    }
 }
