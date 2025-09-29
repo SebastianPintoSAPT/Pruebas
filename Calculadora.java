@@ -17,4 +17,12 @@ public class Calculadora {
         }
         return a / b;
     }
+
+    public int modulo(int a, int b) {
+        return a % b;
+    }
+
+    public double potencia(double base, double exponente) {
+        return Math.pow(base, exponente);
+    }
 }
