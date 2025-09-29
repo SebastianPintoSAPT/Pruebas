@@ -33,4 +33,8 @@ public class Calculadora {
         }
         return (int) Math.sqrt(a);
     }
+
+    public int usted(int a){
+        return a/10;
+    }
 }
