@@ -41,4 +41,8 @@ public class Calculadora {
         }
         return (int) Math.log(a);
     }
+
+    public double dividirEn3(int a){
+        return a/3;
+    }
 }
